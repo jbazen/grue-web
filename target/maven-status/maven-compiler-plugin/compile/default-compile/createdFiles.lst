@@ -1,4 +1,6 @@
-com\jahaba\grue\Grue.class
-com\jahaba\grue\GrueWebController.class
-com\jahaba\grue\GrueWebApplication.class
-com\jahaba\grue\GrueWebRestController.class
+com\jahaba\grue\grueweb\Customer.class
+com\jahaba\grue\grueweb\GrueWebController.class
+com\jahaba\grue\grueweb\CustomerRepository.class
+com\jahaba\grue\grueweb\Grue.class
+com\jahaba\grue\grueweb\GrueWebRestController.class
+com\jahaba\grue\grueweb\GrueWebApplication.class

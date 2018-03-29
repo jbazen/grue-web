@@ -1,4 +1,4 @@
-package com.jahaba.grue;
+package com.jahaba.grue.grueweb;
 
 public class Grue {
 

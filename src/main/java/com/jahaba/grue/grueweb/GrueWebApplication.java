@@ -1,16 +1,21 @@
 package com.jahaba.grue.grueweb;
 
+import com.jahaba.grue.grueweb.config.GrueWebDbConfig;
+import com.jahaba.grue.grueweb.entity.Customer;
+import com.jahaba.grue.grueweb.repository.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
+@Import({GrueWebDbConfig.class})
 public class GrueWebApplication {
 
-    private static final Logger log = LoggerFactory.getLogger(com.jahaba.grue.grueweb.GrueWebApplication.class);
+    private static final Logger log = LoggerFactory.getLogger(GrueWebApplication.class);
 
     public static void main(String[] args) {
         SpringApplication.run(GrueWebApplication.class, args);

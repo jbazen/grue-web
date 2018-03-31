@@ -16,6 +16,8 @@
 
 package com.jahaba.grue.grueweb;
 
+import com.jahaba.grue.grueweb.entity.Customer;
+import com.jahaba.grue.grueweb.repository.CustomerRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,4 +47,5 @@ public class CustomerRepositoryTests {
 
         assertThat(findByLastName).extracting(Customer::getLastName).containsOnly(customer.getLastName());
     }
+
 }

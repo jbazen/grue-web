@@ -1,5 +1,6 @@
-package com.jahaba.grue.grueweb;
+package com.jahaba.grue.grueweb.controller.rest;
 
+import com.jahaba.grue.grueweb.dto.Grue;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,4 +17,5 @@ public class GrueWebRestController {
     public Grue grueJson(@RequestParam(value="name", defaultValue="Grue") String name) {
         return new Grue(counter.incrementAndGet(), String.format(template, name));
     }
+
 }

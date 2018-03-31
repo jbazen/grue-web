@@ -1,4 +1,4 @@
-package com.jahaba.grue.grueweb;
+package com.jahaba.grue.grueweb.dto;
 
 public class Grue {
 
@@ -17,4 +17,5 @@ public class Grue {
     public String getContent() {
         return content;
     }
+
 }

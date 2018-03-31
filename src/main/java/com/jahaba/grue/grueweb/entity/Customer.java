@@ -1,5 +1,5 @@
 // tag::sample[]
-package com.jahaba.grue.grueweb;
+package com.jahaba.grue.grueweb.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -42,5 +42,6 @@ public class Customer {
 	public String getLastName() {
 		return lastName;
 	}
+
 }
 

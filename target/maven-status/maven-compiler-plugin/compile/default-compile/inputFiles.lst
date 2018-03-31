@@ -1,4 +1,7 @@
-C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\Grue.java
-C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\GrueWebController.java
-C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\GrueWebRestController.java
+C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\entity\Customer.java
+C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\controller\GrueWebController.java
+C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\config\GrueWebDbConfig.java
+C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\controller\rest\GrueWebRestController.java
+C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\repository\CustomerRepository.java
+C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\dto\Grue.java
 C:\dev\grue-web\src\main\java\com\jahaba\grue\grueweb\GrueWebApplication.java
